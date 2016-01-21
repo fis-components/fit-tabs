@@ -1,10 +1,13 @@
 {
     "name": "fit-tabs",
-    "description": "tbas",
+    "description": "tabs",
     "repos": "https://github.com/tb-component/pc-tabs.git",
-    "main": "dist/index.js",
+    "main": "lib/index.js",
     "tag": "master",
     "reposType": "npm",
-    "dependencies": {},
-    "version": "0.2.11"
+    "dependencies": {
+        "classnames": "^2.2.3",
+        "jquery": "^2.2.0"
+    },
+    "version": "0.2.12"
 }
